@@ -1,0 +1,114 @@
+/*Zerando formatacao padrao*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Corpo principal*/
+body{
+    background-color: rgb(231, 229, 229);
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.principal{
+  width: 920px;
+  margin: 0 auto;
+  padding: 15px;
+   
+}
+a{
+    text-decoration: none;
+    color: rgb(238, 184, 36);
+}
+a:hover{
+    text-decoration: underline;
+}
+/*cabecalho e menu*/
+.cabecalho{
+    background-color: rgb(238, 184, 36);
+    text-align: center;
+    margin: 5px;
+ 
+}
+.menu, .cabecalho{
+    padding: 15px;
+
+}
+.nomeMenu{
+    color: black;
+}
+h1{
+    color: white;
+    font-size: 3em;
+}
+.cabecalho a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.7em;
+    color: white;
+    
+}
+.cabecalho a:hover{
+    background-color: white;
+    color: rgb(238, 184, 36);
+  
+}
+/*Conteudo Principal*/
+.conteudoPrincipal{
+    width: 640px;
+    float: left;
+}
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: white;
+}
+p{
+    padding-top: 5px;
+    padding-bottom: 6px;
+    text-align: justify;
+}
+h2{
+    color:  rgb(238, 184, 36);
+  
+}
+.dataPostagem{
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+/*Conteudo lateral*/
+.conteudoLateral{
+    width: 200px;
+    float: right;
+}
+.postConteudoLateral{
+    background-color: white;
+    margin-bottom: 20px;
+    padding: 5px;
+}
+.linksLaterais{
+    color: rgb(238, 184, 36);
+    font-size: 1.0em;
+   
+}
+.texto-lateral{
+    font-size: 0.8em;
+}
+/*
+
+*/
+
+h3{
+    background-color: grey;
+    color: black;
+    padding: 2px;
+}
+/*Rodape*/
+.rodape{
+    text-align: center;
+    clear: both;
+    padding: 15px;
+    background-color: #ccc;
+}
